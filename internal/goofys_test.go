@@ -51,9 +51,9 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
+	"github.com/ppenguin/fuse"
+	"github.com/ppenguin/fuse/fuseops"
+	"github.com/ppenguin/fuse/fuseutil"
 
 	"github.com/sirupsen/logrus"
 
@@ -4192,7 +4192,7 @@ func (s *GoofysTest) TestReadMyOwnNewFileFuse(t *C) {
 
 	filePath := mountPoint + "/filex"
 
-	// jacobsa/fuse doesn't support setting OpenKeepCache on
+	// ppenguin/fuse doesn't support setting OpenKeepCache on
 	// CreateFile but even after manually setting in in
 	// fuse/conversions.go, we still receive read ops instead of
 	// being handled by kernel

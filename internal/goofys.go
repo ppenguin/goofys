@@ -30,9 +30,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/awserr"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
+	"github.com/ppenguin/fuse"
+	"github.com/ppenguin/fuse/fuseops"
+	"github.com/ppenguin/fuse/fuseutil"
 
 	"github.com/sirupsen/logrus"
 	"net/http"

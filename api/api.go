@@ -10,8 +10,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseutil"
+	"github.com/ppenguin/fuse"
+	"github.com/ppenguin/fuse/fuseutil"
 	"github.com/sirupsen/logrus"
 )
 

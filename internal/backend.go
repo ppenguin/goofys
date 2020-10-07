@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jacobsa/fuse"
+	"github.com/ppenguin/fuse"
 )
 
 type Capabilities struct {

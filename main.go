@@ -30,7 +30,7 @@ import (
 
 	"context"
 
-	"github.com/jacobsa/fuse"
+	"github.com/ppenguin/fuse"
 	"github.com/kardianos/osext"
 	"github.com/urfave/cli"
 

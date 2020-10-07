@@ -32,7 +32,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/jacobsa/fuse"
+	"github.com/ppenguin/fuse"
 	"github.com/sirupsen/logrus"
 
 	adl2 "github.com/Azure/azure-sdk-for-go/services/storage/datalake/2018-11-09/storagedatalake"

@@ -18,9 +18,9 @@ import (
 	"context"
 	"runtime/debug"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
+	"github.com/ppenguin/fuse"
+	"github.com/ppenguin/fuse/fuseops"
+	"github.com/ppenguin/fuse/fuseutil"
 )
 
 type FusePanicLogger struct {

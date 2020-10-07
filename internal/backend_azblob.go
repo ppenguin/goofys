@@ -34,7 +34,7 @@ import (
 	"github.com/Azure/azure-storage-blob-go/azblob"
 
 	"github.com/google/uuid"
-	"github.com/jacobsa/fuse"
+	"github.com/ppenguin/fuse"
 	"github.com/sirupsen/logrus"
 )
 
