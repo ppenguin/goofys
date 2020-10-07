@@ -1,8 +1,9 @@
-module github.com/kahing/goofys
+module github.com/ppenguin/goofys
 
 go 1.13
 
-replace github.com/ppenguin/fuse => ../fuse
+// now up to date ppenguin/fuse is pushed to github
+// replace github.com/ppenguin/fuse => ../fuse
 
 require (
 	github.com/Azure/azure-pipeline-go v0.2.3
@@ -14,7 +15,9 @@ require (
 	github.com/Azure/go-autorest/autorest/azure/cli v0.4.0
 	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/Azure/go-autorest/autorest/validation v0.3.0 // indirect
+	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/aws/aws-sdk-go v1.34.5
+	github.com/go-ole/go-ole v1.2.4 // indirect
 	github.com/google/uuid v1.1.1
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/mitchellh/go-homedir v1.1.0
