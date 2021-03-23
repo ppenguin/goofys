@@ -462,11 +462,15 @@ func (fs *Goofys) GetXattr(ctx context.Context,
 
 func (fs *Goofys) ListXattr(ctx context.Context,
 	op *fuseops.ListXattrOp) (err error) {
+	var xattrs []string
+
 	fs.mu.RLock()
 	inode := fs.getInodeOrDie(op.Inode)
 	fs.mu.RUnlock()
 
-	xattrs, err := inode.ListXattr()
+	if inode.Id != 1 {
+		xattrs, err = inode.ListXattr()
+	}
 
 	ncopied := 0
 
